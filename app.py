@@ -7,7 +7,7 @@ import gradio as gr
 
 #if you have OpenAI API key as a string, enable the below
 #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
-openai.api_key = "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"
+openai.api_key = "" #enter the key
 
 start_sequence = "\nAI:"
 restart_sequence = "\nHuman: "
@@ -30,7 +30,7 @@ def openai_create(prompt):
 
 """ after this is the latest version code"""
 from openai import OpenAI
-api_key = "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"
+api_key = "" #enter the key
 prompt = "The following is a conversation with a financial management assistant named FineBot. The assistant is very friendly, knowledgeable, resourceful, and dedicated to achieve all your financial goals and helping you understand the technical words or jargon in personal finance management.\n\nHuman: Hello, what services do you provide?\nAssistant: Hello I am FineBot and I'm here to assist you with all aspects of personal financial management along with helping you understand the vocabulary of the Finance world. How can I assist you today?\nHuman: "
 
 def openai_create(prompt):
