@@ -6,10 +6,9 @@ import gradio as gr
 prompt = "The following is a conversation with a financial management assistant named FineBot. The assistant is very friendly, knowledgeable, resourceful, and dedicated to achieve all your financial goals and helping you understand the technical words or jargon in personal finance management.\n\nHuman: Hello, what services do you provide?\nAssistant: Hello I am FineBot and I'm here to assist you with all aspects of personal financial management along with helping you understand the vocabulary of the Finance world. How can I assist you today?\nHuman: "
 
 def chat_create(input_text):
-    os.environ['_BARD_API_KEY']="g.a000igisCZMjGQcgIjxuhoqwnIngMrkzq99_a6U837NsWafmUVap8ArwHODd8LsnWEDtPBekXAACgYKAUMSAQASFQHGX2MijaaFe0HkYOTn5S93bLGaVBoVAUF8yKrrO2sqO52vPmBkvKSdqVDH0076"
     #input_text="why is the sky blue?"
     cookie_dict = {
-        "__Secure-1PSID": "g.a000igiRPfm4ALkWa99FoKhVzFBPcQYYfKj47x4imHDo0d-4airs9BDvdBmYQGet3OxlYLF5bQACgYKAYUSAQASFQHGX2MiyE9Q96l8-F-cgXZC_gPsIxoVAUF8yKpl-5ty01ZXrOJdyIJpyifx0076",
+        "__Secure-1PSID": "", #add key here
         
     }
 
